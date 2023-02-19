@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: hsl(212, 45%, 89%);
+  color: hsl(220, 15%, 55%);
+  margin: 2rem;
+  font-family: outfit;
+  padding-top: 20vh;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  padding: 1rem;
+  border-radius: 1.2rem;
+  max-width: 311px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.045), 0 6px 20px 0 rgba(0, 0, 0, 0.02);
+}
+
+img {
+  border-radius: 0.5rem;
+}
+
+.content {
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.31rem;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  padding: 1rem;
+}
+
+p {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  margin-bottom: 1.75rem;
+  font-size: 0.937rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* White: hsl(0, 0%, 100%)
+Light gray: hsl(212, 45%, 89%)
+Grayish blue: hsl(220, 15%, 55%)
+Dark blue: hsl(218, 44%, 22%) */
